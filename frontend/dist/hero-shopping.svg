@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
+  <defs>
+    <linearGradient id="lg" x1="0" x2="1">
+      <stop offset="0" stop-color="#06b6d4" />
+      <stop offset="1" stop-color="#7c3aed" />
+    </linearGradient>
+    <linearGradient id="bagGrad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#f3f4f6" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="480" rx="20" fill="url(#lg)" opacity="0.06" />
+
+  <!-- left illustration: shopping bag and boxes -->
+  <g transform="translate(90,60)">
+    <rect x="0" y="40" width="320" height="280" rx="18" fill="url(#bagGrad)" />
+    <g transform="translate(36,72)">
+      <rect x="0" y="0" width="120" height="96" rx="10" fill="#fff" stroke="#E6E6F0" />
+      <rect x="140" y="20" width="140" height="80" rx="10" fill="#fff" stroke="#E6E6F0" />
+      <path d="M24 12c6-12 20-20 36-20s30 8 36 20" fill="#EDE9FE" transform="translate(0,52)" />
+      <rect x="40" y="-20" width="120" height="20" rx="8" fill="#F8FAFC" />
+    </g>
+
+    <!-- shopping bag -->
+    <g transform="translate(200,30)">
+      <rect x="0" y="60" width="96" height="120" rx="14" fill="#fff" stroke="#E6E6F0" />
+      <path d="M18 60c0-18 14-32 32-32s32 14 32 32" fill="none" stroke="#CBD5E1" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="24" cy="90" r="8" fill="#7c3aed" opacity="0.12" />
+    </g>
+  </g>
+
+  <!-- right callout -->
+  <g transform="translate(440,100)">
+    <rect x="0" y="0" width="320" height="240" rx="16" fill="#fff" opacity="0.98" />
+    <text x="28" y="44" font-family="Inter, sans-serif" font-size="22" font-weight="700" fill="#0f172a">Shop from trusted vendors</text>
+    <text x="28" y="80" font-family="Inter, sans-serif" font-size="14" fill="#475569">Curated picks, fast checkout and secure payments.</text>
+    <g transform="translate(28,110)">
+      <rect x="0" y="0" width="120" height="40" rx="10" fill="url(#lg)" />
+      <text x="12" y="26" font-family="Inter, sans-serif" font-size="14" fill="#fff">Start Shopping</text>
+      <circle cx="160" cy="20" r="28" fill="#FEF3C7" />
+      <path d="M150 10 l8 16 l16-8" stroke="#D97706" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+
+  <!-- subtle decorative shapes -->
+  <circle cx="620" cy="48" r="10" fill="#fff" opacity="0.6" />
+  <circle cx="700" cy="180" r="6" fill="#fff" opacity="0.6" />
+  <circle cx="560" cy="320" r="14" fill="#fff" opacity="0.06" />
+</svg>
